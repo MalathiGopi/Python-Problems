@@ -15,6 +15,18 @@
       o/p:
       3.8.7 (tags/v3.8.7:6503f05, Dec 21 2020, 17:59:51) [MSC v.1928 64 bit (AMD64)]
 ===========================================================================================
-2)
+2)print the current date, time and week?
+
+import datetime
+x=datetime.datetime.now()
+print("Current year-month-day  Hour:minute:second.microsecond: ",x)
+print("Year is : ",x.year)
+print(x.strftime("%A"))
+o/p:
+Current year-month-day  Hour:minute:second.microsecond:  2021-09-01 23:32:58.391747
+Year is :  2021
+Wednesday
+===========================================================================================
+
       
   
